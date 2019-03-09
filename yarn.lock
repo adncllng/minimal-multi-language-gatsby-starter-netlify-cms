@@ -12019,6 +12019,13 @@ react-router@^4.2.0, react-router@^4.3.1:
     prop-types "^15.6.1"
     warning "^4.0.1"
 
+react-scroll-parallax@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-2.0.2.tgz#c9f66b6cfcde677b1968ab6858f260e21a8d4a7a"
+  integrity sha512-wmpPF1u+S9bXPmhR0Yc/LpMp3zXD1w7mZqU7nicKf2GBtnbmUGgc3hAPw/QJUFESvEy540+kQJ97HMZsv1X3QA==
+  dependencies:
+    prop-types "^15.5.10"
+
 react-scroll-sync@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/react-scroll-sync/-/react-scroll-sync-0.6.0.tgz#c87eba2cdd55ae35874277d74b034419d73df59a"
