@@ -21,6 +21,7 @@ const IndexPage = ({ pageContext: { locale }, ...props }) => {
       <p>Locale: {locale}</p>
       <ParallaxProvider>
       <Link to={locale === "en" ? "/fr" : "/" }><p>{locale === "en" ? "fr" : "en"}</p></Link>
+      <Link to={locale === "en" ? "/fr/about" : "/about" }><p>{locale === "en" ? "fr" : "en"}</p></Link>
       <h2>BlogPosts:</h2>
       {posts.map(({node: post}) => (
 
