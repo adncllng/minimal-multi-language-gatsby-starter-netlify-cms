@@ -20,8 +20,8 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "blog-de"
-    label: "Blog - DE"
-    folder: "src/pages/blog/de"
+    label: "Blog - fr"
+    folder: "src/pages/blog/fr"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -35,9 +35,9 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Home - DE"
+      - label: "Home - FR"
         name: "home-fr"
-        file: "src/pages/home/index.de.md"
+        file: "src/pages/home/index.fr.md"
         fields:
           - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
           - {label: "Locale", name: "locale", widget: "hidden", default: "de"}

@@ -16,7 +16,7 @@ const IndexPage = ({ pageContext: { locale }, ...props }) => {
       <h1>title: {data.frontmatter.title}</h1>
       <p>Content: {data.frontmatter.text}</p>
       <p>Locale: {locale}</p>
-      <Link to={ locale === "en" ? "/de" : "/" }><p>Change language</p></Link>
+      <Link to={ locale === "en" ? "/fr" : "/" }><p>Change language</p></Link>
       <h2>BlogPosts:</h2>
       {posts.map(({node: post}) => (
         <div>
