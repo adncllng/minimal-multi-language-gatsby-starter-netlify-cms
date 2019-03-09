@@ -26,7 +26,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Locale", name: "locale", widget: "hidden", default: "de"}
+      - {label: "Locale", name: "locale", widget: "hidden", default: "fr"}
       - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_blogpost"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -35,6 +35,26 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
+      - label: "About - FR"
+        name: "about-fr"
+        file: "src/pages/about/about.fr.md"
+        fields:
+          - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_about"}
+          - {label: "Locale", name: "locale", widget: "hidden", default: "de"}
+          - {label: "SEO Title", name: "seo_title", widget: "string"}
+          - {label: "SEO Description", name: "seo_desc", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Text", name: "text", widget: "text"}
+      - label: "About - EN"
+        name: "about"
+        file: "src/pages/about/about.md"
+        fields:
+          - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_about"}
+          - {label: "Locale", name: "locale", widget: "hidden", default: "en"}
+          - {label: "SEO Title", name: "seo_title", widget: "string"}
+          - {label: "SEO Description", name: "seo_desc", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Text", name: "text", widget: "text"}
       - label: "Home - FR"
         name: "home-fr"
         file: "src/pages/home/index.fr.md"

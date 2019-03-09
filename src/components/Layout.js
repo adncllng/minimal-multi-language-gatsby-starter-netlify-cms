@@ -36,6 +36,7 @@ const TemplateWrapper = ({ children, location }) => (
         </Helmet>
         <div>
         <Header location={location}/>
+        <Menu/>
         {children}
         </div>
       </div>

@@ -20,17 +20,21 @@ const IndexPage = ({ pageContext: { locale }, ...props }) => {
       <p>Content: {data.frontmatter.text}</p>
       <p>Locale: {locale}</p>
       <ParallaxProvider>
-      <Link to={ locale === "en" ? "/fr" : "/" }><p>{locale === "en" ? "fr" : "en"}</p></Link>
+      <Link to={locale === "en" ? "/fr" : "/" }><p>{locale === "en" ? "fr" : "en"}</p></Link>
       <h2>BlogPosts:</h2>
       {posts.map(({node: post}) => (
+
+        <div style={{marginTop:'100vh'}}>
         <Parallax y={[-20, 20]} tagOuter="figure">
-        <div>
           <h3>Blog Post Title: {post.frontmatter.title}</h3>
+                </Parallax>
+                  <Parallax y={[100, -100]} tagOuter="figure">
           <p>Blog Post Description: {post.frontmatter.description}</p>
+            </Parallax>
           <p>Blog Post Date: {post.frontmatter.date}</p>
           <Link to={post.fields.slug} title="link to blog post">Link to blog post</Link>
         </div>
-        </Parallax>
+
       ))}
       </ParallaxProvider>
     </Layout>
