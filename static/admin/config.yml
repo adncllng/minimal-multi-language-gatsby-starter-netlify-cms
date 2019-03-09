@@ -40,7 +40,7 @@ collections:
         file: "src/pages/about/about.fr.md"
         fields:
           - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_about"}
-          - {label: "Locale", name: "locale", widget: "hidden", default: "de"}
+          - {label: "Locale", name: "locale", widget: "hidden", default: "fr"}
           - {label: "SEO Title", name: "seo_title", widget: "string"}
           - {label: "SEO Description", name: "seo_desc", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
@@ -60,7 +60,7 @@ collections:
         file: "src/pages/home/index.fr.md"
         fields:
           - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
-          - {label: "Locale", name: "locale", widget: "hidden", default: "de"}
+          - {label: "Locale", name: "locale", widget: "hidden", default: "fr"}
           - {label: "SEO Title", name: "seo_title", widget: "string"}
           - {label: "SEO Description", name: "seo_desc", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
