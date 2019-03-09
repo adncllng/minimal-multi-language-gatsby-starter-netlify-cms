@@ -7,5 +7,3 @@ date: 2018-12-07T15:04:10.000Z
 description: Hello World Blog Post FR
 ---
 Hello World
-
-![](/img/instagram.svg)
