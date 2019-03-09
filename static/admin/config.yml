@@ -35,22 +35,22 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Home - EN"
-        name: "home"
-        file: "src/pages/home/index.md"
-        fields:
-          - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
-          - {label: "Locale", name: "locale", widget: "hidden", default: "en"}
-          - {label: "SEO Title", name: "seo_title", widget: "string"}
-          - {label: "SEO Description", name: "seo_desc", widget: "string"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Text", name: "text", widget: "text"}
       - label: "Home - DE"
         name: "home"
         file: "src/pages/home/index.de.md"
         fields:
           - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
           - {label: "Locale", name: "locale", widget: "hidden", default: "de"}
+          - {label: "SEO Title", name: "seo_title", widget: "string"}
+          - {label: "SEO Description", name: "seo_desc", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Text", name: "text", widget: "text"}
+      - label: "Home - EN"
+        name: "home"
+        file: "src/pages/home/index.md"
+        fields:
+          - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
+          - {label: "Locale", name: "locale", widget: "hidden", default: "en"}
           - {label: "SEO Title", name: "seo_title", widget: "string"}
           - {label: "SEO Description", name: "seo_desc", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
