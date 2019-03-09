@@ -36,7 +36,7 @@ collections:
     name: "pages"
     files:
       - label: "Home - DE"
-        name: "home"
+        name: "home-fr"
         file: "src/pages/home/index.de.md"
         fields:
           - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
