@@ -1,4 +1,5 @@
 ---
+image: /img/20160614_183709.jpg
 templateKey: blog-post
 locale: en
 pageKey: page_blogpost
