@@ -2,8 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 import Header from './Header'
+import Menu from './Menu'
 
-const TemplateWrapper = ({ children, location }) => (
+const TemplateWrapper = ({ children, location, locale}) => (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
@@ -35,6 +36,7 @@ const TemplateWrapper = ({ children, location }) => (
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
         <div>
+        <Menu mobile={false} location={location} locale={locale}/>
         <Header location={location}/>
         {children}
         </div>

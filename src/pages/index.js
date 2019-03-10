@@ -11,7 +11,7 @@ const IndexPage = ({ pageContext: { locale }, ...props }) => {
   const { node: data } = props.data.homePageData.edges[0]
   const { edges: posts } = props.data.blogPosts
   return (
-    <Layout location='HOME'>
+    <Layout location='HOME' locale={locale}>
       <Helmet titleTemplate="%s | Blog">
         <title>{`${data.frontmatter.seo_title}`}</title>
         <meta name="description" content={`${data.frontmatter.seo_desc}`} />
@@ -24,8 +24,7 @@ const IndexPage = ({ pageContext: { locale }, ...props }) => {
       <Link to={locale === "en" ? "/fr/about" : "/about" }><p>{locale === "en" ? "fr" : "en"}</p></Link>
       <h2>BlogPosts:</h2>
       {posts.map(({node: post}) => (
-
-        <div style={{marginTop:'100vh'}}>
+        <div>
         <Parallax y={[-20, 20]} tagOuter="figure">
           <h3>Blog Post Title: {post.frontmatter.title}</h3>
                 </Parallax>

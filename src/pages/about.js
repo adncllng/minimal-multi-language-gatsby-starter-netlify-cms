@@ -14,132 +14,89 @@ const AboutPage = ({ pageContext: { locale }, ...props }) => {
   console.log(frontmatter)
 
   return (
-    <Layout location="HOME">
     <div>
-    <h1>{frontmatter.title}</h1>
-    <h1>{frontmatter.pageKey}</h1>
-    <h1>{frontmatter.title}</h1>
-    <p>asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
-    asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf</p>
+      <h1>{frontmatter.title}</h1>
+      <h1>{frontmatter.pageKey}</h1>
+      <h1>{frontmatter.title}</h1>
+      <p>
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf
+        asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf
+        asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf
+        asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf
+        asdfasdf asdfasdf asdfasdff asdfasdf asdfasdf asdfasdf asdfasdf asdfasdff
+        asdfasdf asdfasdf asdfasdf
+      </p>
     </div>
-    </Layout>
+
   )
 }
 
