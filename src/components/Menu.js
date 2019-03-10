@@ -21,24 +21,10 @@ const style = (mobile) => {
 class Menu extends React.Component {
   constructor(props) {
   super(props);
-  this.someRefName = React.createRef();
-
 }
-onScroll = () => {
-let offsetTop = this.someRefName.current.offsetTop;
-console.log(offsetTop)
-}
-
-componentDidMount() {
-   window.addEventListener('scroll', this.onScroll);
- }
- componentWillUnmount() {
-   window.removeEventListener('scroll', this.onScroll);
- }
-
   render() {
     return (
-      <div ref={this.someRefName} >
+      <div >
         <h1>Hello, world!</h1>
         <h2>It is.</h2>
       </div>

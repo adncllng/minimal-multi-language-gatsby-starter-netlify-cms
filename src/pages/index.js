@@ -6,10 +6,12 @@ import PropTypes from 'prop-types'
 import Header from '../components/Header'
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
+import Img from 'gatsby-image'
 
 const IndexPage = ({ pageContext: { locale }, ...props }) => {
   const { node: data } = props.data.homePageData.edges[0]
   const { edges: posts } = props.data.blogPosts
+  console.log(posts)
   return (
     <Layout location='HOME' locale={locale}>
       <Helmet titleTemplate="%s | Blog">
@@ -30,6 +32,8 @@ const IndexPage = ({ pageContext: { locale }, ...props }) => {
                 </Parallax>
                   <Parallax y={[100, -100]} tagOuter="figure">
           <p>Blog Post Description: {post.frontmatter.description}</p>
+          <Img fluid={post.frontmatter.image.childImageSharp.fluid}/>
+
             </Parallax>
           <p>Blog Post Date: {post.frontmatter.date}</p>
           <Link to={post.fields.slug} title="link to blog post">Link to blog post</Link>
@@ -88,6 +92,13 @@ query HomeContent($locale: String) {
             title
             description
             date
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2000, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
