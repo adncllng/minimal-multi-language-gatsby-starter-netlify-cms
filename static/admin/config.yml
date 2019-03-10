@@ -12,6 +12,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: Image, name: image, widget: image}
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Locale", name: "locale", widget: "hidden", default: "en"}
       - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_blogpost"}
@@ -25,6 +26,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: Image, name: image, widget: image}
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Locale", name: "locale", widget: "hidden", default: "fr"}
       - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_blogpost"}
