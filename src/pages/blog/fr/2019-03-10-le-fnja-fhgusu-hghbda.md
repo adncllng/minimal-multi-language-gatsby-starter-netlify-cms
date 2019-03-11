@@ -1,5 +1,5 @@
 ---
-image: /img/screen-shot-2018-02-18-at-1.14.25-pm.png
+image: /img/visisble_portrait-copy.jpg
 templateKey: blog-post
 locale: fr
 pageKey: page_blogpost
