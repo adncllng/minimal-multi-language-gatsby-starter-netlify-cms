@@ -4,8 +4,10 @@ const style = {
       maxWidth: '45vw',
       fontSize: '7vw',
       right: '0',
+      color:'pink',
       position: 'fixed',
-      margin:'0'
+      margin:'0',
+      zIndex:'20',
 }
 
 const Header = ({location}) => (
