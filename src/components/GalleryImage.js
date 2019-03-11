@@ -80,6 +80,8 @@ class GalleryImage extends React.Component {
           <Box
             style={{
               zIndex: "100",
+              justifyContent: 'space-between',
+              overflow: 'hidden',
               backgroundColor: "white",
               width: WIDTH + "px",
               height: HEIGHT + "px",
@@ -89,18 +91,16 @@ class GalleryImage extends React.Component {
             }}
             pose={showDescription ? "visible" : "hidden"}
           >
-            <ToRight pose={showDescription ? "enter" : "exit"}>
-              <p>
+          <ToLeft style={{height:'50px'}} pose={showDescription ? "enter" : "exit"}>
+            <p>
+              {this.props.post.frontmatter.title}
+            </p>
+          </ToLeft>
+            <ToRight  style={{height:'50px', alignSelf:'flexEnd'}} pose={showDescription ? "enter" : "exit"}>
+              <p style={{alignSelf:'flex-end'}} >
                 {this.props.post.frontmatter.description}
               </p>
             </ToRight>
-
-
-              <ToLeft pose={showDescription ? "enter" : "exit"}>
-                <p>
-                  {this.props.post.frontmatter.title}
-                </p>
-              </ToLeft>
           </Box>
           <div style={imageBoxStyle}>
             <Img
