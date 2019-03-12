@@ -62,7 +62,7 @@ class GalleryImage extends React.Component {
   // function out(e) {
   //   e.target.style.opacity = "0";
   // }
-  onMouseOver = () => {
+  onMouseMove = () => {
     console.log("mouseover");
     this.setState({ showDescription: true });
   };
@@ -73,7 +73,7 @@ class GalleryImage extends React.Component {
   render() {
     const { showDescription } = this.state;
     return (
-      <div onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut}>
+      <div onMouseMove={this.onMouseMove} onMouseOut={this.onMouseOut}>
         <Link to={this.props.post.fields.slug} title="link to blog post">
           <Box
             style={{
