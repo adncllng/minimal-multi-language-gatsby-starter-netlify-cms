@@ -22,7 +22,6 @@ const ToLeft = posed.div({
     x: 0,
     opacity: 1,
     delay: 500,
-    color:'red',
     transition: {
       x: { type: "spring", stiffness: 1000, damping: 150 },
       default: { duration: 300 }
@@ -39,7 +38,6 @@ const ToRight = posed.div({
     x: 0,
     opacity: 1,
     delay: 500,
-    color:'red',
     transition: {
       x: { type: "spring", stiffness: 1000, damping: 150 },
       default: { duration: 300 }
@@ -103,9 +101,11 @@ class GalleryImage extends React.Component {
             </ToRight>
           </Box>
           <div style={imageBoxStyle}>
+          {this.props.post.frontmatter.image &&
             <Img
               fluid={this.props.post.frontmatter.image.childImageSharp.fluid}
-            />
+            />}
+
           </div>
         </Link>
       </div>

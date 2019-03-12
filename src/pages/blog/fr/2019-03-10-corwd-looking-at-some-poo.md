@@ -1,5 +1,5 @@
 ---
-image: /img/audience_rivières.jpg
+image: /img/audience_rivieres.jpg
 templateKey: blog-post
 locale: fr
 pageKey: page_blogpost
@@ -18,6 +18,6 @@ description: >-
   200 Latin words, combined with a handful of model sentence structures, to
   generate Lorem Ipsum which looks reasona
 ---
-e Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonay of over 200 Latin words. 
+e Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonay of over 200 Latin words.
 
 et. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonay of over 200 Latin words, on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonay of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasona
